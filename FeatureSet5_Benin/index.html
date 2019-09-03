@@ -28,11 +28,23 @@
                 width: 40%;
             }
             #right{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
                 float:right;
                 background-color: white;
                 width: 60%
             }
-            
+            #yellow{
+                background-color: yellow;
+                height: 50%;
+                width:100%;
+            }
+            #red{
+                background-color: red;
+                height: 50%;
+                width: 100%;
+            }
             
 
         </style>
@@ -44,7 +56,10 @@
     <body>
         <div id="flagContainer">
             <div id="left"></div>
-            <div id="right"></div>
+            <div id="right">
+                <div id="yellow"></div>
+                <div id="red"></div>
+            </div>
         </div>
     </body>
 </html>
