@@ -8,36 +8,48 @@
     <style>
         #flag-container{
             height: 250px;
-            width: 250px;
+            width: 400px;
             margin: auto;
             margin-top: 300px;
             position: relative;
             overflow: hidden;
-            background-color: red;
+            background-color: sienna;
         }
-        #flag-container-horizontal{
-            height: 50px;
-            width: 175px;
-
+        #mini-container{
+            height: 125px;
+            width: 200px;
             background-color: white;
-            margin: 100px 36px;
             position: absolute;
         }
-        #flag-container-vertical{
-            height: 175px;
-            width: 50px;
-
-            background-color: white;
-            margin: 36px 100px;
+        #mini-container-horizontal{
+            background-color: sienna;
+            height: 40px;
+            width: 125px;
+            margin: auto;
+            margin-top: 35px;
+        }
+        #mini-container-vertical{
+            background-color: blue;
+            height: 125px;
+            width: 40px;
+            margin: auto;
             position: absolute;
+            margin-bottom:100px;
         }
     
     </style>
 </head>
 <body>
+
     <div id="flag-container">
-        <div id="flag-container-horizontal"></div>
-        <div id="flag-container-vertical"></div>
+        <div id="mini-container">
+            <div id="mini-container-horizontal">
+                    <div id="mini-container-vertical"></div>
+            </div>
+            
+
+        </div>
+        
     </div>
     
 </body>
